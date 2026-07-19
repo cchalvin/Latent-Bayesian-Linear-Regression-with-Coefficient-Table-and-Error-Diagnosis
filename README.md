@@ -8,7 +8,7 @@ This comprehensive report provides a graduate-level decomposition of the framewo
 # Part 0: How Others Download and Install It
 
 1. Download the File from GitHub
-Go to your public GitHub repository URL: [https://github.com/YOUR_USERNAME/Bayesianpac](https://github.com/cchalvin/Bayesianpac).
+Public GitHub repository URL: [https://github.com/cchalvin/Bayesianpac](https://github.com/cchalvin/Bayesianpac).
 
 Click on the Bayesianpac_0.1.0.tar.gz file in the file list.
 
