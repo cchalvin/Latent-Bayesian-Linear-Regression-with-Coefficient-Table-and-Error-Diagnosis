@@ -1,1 +1,6 @@
 
+export(BayesianLatentRegression)
+importFrom(mvtnorm, dmvnorm)
+importFrom(ggplot2, ggplot, geom_point, geom_ribbon, geom_line, geom_boxplot, theme_minimal, labs, scale_color_brewer, scale_fill_brewer, aes, position_dodge)
+importFrom(gridExtra, arrangeGrob)
+importFrom(grid, textGrob, gpar, grid.newpage, grid.draw)
