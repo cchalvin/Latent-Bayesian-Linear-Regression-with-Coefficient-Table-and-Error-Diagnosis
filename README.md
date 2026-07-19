@@ -14,28 +14,27 @@ Click on the Bayesianpac_0.1.0.tar.gz file in the file list.
 
 Click the Download button (or the Download raw file icon) to save the archive to their local machine.
 
-2. Install the Archive via R
+ 2. Install the Archive via R
+
 They can then install the package by pointing R directly to their local download path:
 
-
-R
-'''
-1. Install missing dependencies first if needed
+```R
+# 1. Install missing dependencies first if needed
 dependencies <- c("mvtnorm", "ggplot2", "gridExtra")
 new_packages <- dependencies[!(dependencies %in% installed.packages()[,"Package"])]
 if(length(new_packages)) install.packages(new_packages)
 
-2. Install your package from the downloaded .tar.gz file
+# 2. Install your package from the downloaded .tar.gz file
 install.packages(
   "path/to/downloads/Bayesianpac_0.1.0.tar.gz", 
   repos = NULL, 
   type = "source"
 )
 
-3. Verify the installation
+# 3. Verify the installation
 library(Bayesianpac)
-'''
 
+```
 
 
 
