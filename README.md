@@ -4,9 +4,8 @@ Latent Bayesian Linear Regression with Coefficient Table and Error Diagnosis, Pl
 
 This comprehensive report provides a graduate-level decomposition of the framework, mathematical derivations, and output metrics of your **Multivariate Bayesian Latent Linear Regression** implementation.
 
----
 
-Part 0: How Others Download and Install It
+# Part 0: How Others Download and Install It
 
 1. Download the File from GitHub
 Go to your public GitHub repository URL: [https://github.com/YOUR_USERNAME/Bayesianpac](https://github.com/cchalvin/Bayesianpac).
@@ -19,19 +18,19 @@ Click the Download button (or the Download raw file icon) to save the archive to
 They can then install the package by pointing R directly to their local download path:
 
 R
-# 1. Install missing dependencies first if needed
+1. Install missing dependencies first if needed
 dependencies <- c("mvtnorm", "ggplot2", "gridExtra")
 new_packages <- dependencies[!(dependencies %in% installed.packages()[,"Package"])]
 if(length(new_packages)) install.packages(new_packages)
 
-# 2. Install your package from the downloaded .tar.gz file
+2. Install your package from the downloaded .tar.gz file
 install.packages(
   "path/to/downloads/Bayesianpac_0.1.0.tar.gz", 
   repos = NULL, 
   type = "source"
 )
 
-# 3. Verify the installation
+3. Verify the installation
 library(Bayesianpac)
 
 
