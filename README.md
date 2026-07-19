@@ -17,7 +17,9 @@ Click the Download button (or the Download raw file icon) to save the archive to
 2. Install the Archive via R
 They can then install the package by pointing R directly to their local download path:
 
+
 R
+'''
 1. Install missing dependencies first if needed
 dependencies <- c("mvtnorm", "ggplot2", "gridExtra")
 new_packages <- dependencies[!(dependencies %in% installed.packages()[,"Package"])]
@@ -32,7 +34,7 @@ install.packages(
 
 3. Verify the installation
 library(Bayesianpac)
-
+'''
 
 
 
