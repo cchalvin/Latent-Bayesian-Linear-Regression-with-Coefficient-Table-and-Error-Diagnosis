@@ -1,0 +1,19 @@
+Package: BayesLatReg
+Type: Package
+Title: Bayesian Latent Generalized Linear Regression with EM
+Version: 0.1.0
+Author: Cheung Cheuk Hin Alvin
+Maintainer: Cheung Cheuk Hin Alvin <alvin.cheung@example.com>
+Description: Fits multivariate Bayesian Latent Linear and Generalized Linear 
+    Regression models. Uses a Quasi-Newton Expectation-Maximization (EM) 
+    algorithm to partition observations into hidden classes, performing 
+    simultaneous estimation and variance contraction profiling.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    mvtnorm,
+    ggplot2,
+    gridExtra,
+    grid
+RoxygenNote: 7.2.3
